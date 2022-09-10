@@ -1,0 +1,39 @@
+img{
+    height: 100px;
+    width: 300px;
+    float: left;
+}
+
+.dropbox{
+    /*Border Box Parameters*/
+        position: relative;
+        top: 150px;
+        left: 100px;
+        border: 1px dashed grey;
+        height: 400px;
+        width: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    /*Text Parameters*/
+        font-family:Arial, Helvetica, sans-serif;
+        color: grey; 
+}
+
+.hover{
+    color: #880C58;
+    border: 1px dashed #880C58;
+}
+
+.valid{
+    color: white;
+    background-color: green;
+    border: 1px dashed green;
+}
+
+.invalid{
+    color: white;
+    background-color: red;
+    border: 1px dashed red;
+}
